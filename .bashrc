@@ -13,4 +13,8 @@ if [ -f /mnt/vol/engshare/admin/scripts/master.bashrc ]; then
 fi
 
 PATH=$/home/shuw/bin\:$PATH ; export PATH
-source "$ADMIN_SCRIPTS"/ssh/manage_agent.sh
+
+# Config for dev-server
+if [ $ADMIN_SCRIPTS ]; then
+	source "$ADMIN_SCRIPTS"/ssh/manage_agent.sh
+fi
