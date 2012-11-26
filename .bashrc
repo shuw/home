@@ -11,3 +11,6 @@ fi
 if [ -f /mnt/vol/engshare/admin/scripts/master.bashrc ]; then
 	. /mnt/vol/engshare/admin/scripts/master.bashrc
 fi
+
+PATH=$/home/shuw/bin\:$PATH ; export PATH
+source "$ADMIN_SCRIPTS"/ssh/manage_agent.sh
