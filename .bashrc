@@ -17,4 +17,5 @@ PATH=$/home/shuw/bin\:$PATH ; export PATH
 # Config for dev-server
 if [ $ADMIN_SCRIPTS ]; then
 	source "$ADMIN_SCRIPTS"/ssh/manage_agent.sh
+  alias hphpdl='hphpd -h localhost'
 fi
