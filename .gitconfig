@@ -1,15 +1,16 @@
 [user]
-	name = Shu Wu
-	email = shuwu83@gmail.com
+  name = Shu Wu
+  email = shuwu83@gmail.com
 [color]
-	ui = true
+  ui = true
 [alias]
-	br = branch
-	co = checkout
-	st = status
-	cp = cherry-pick
-	aa = add --all
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	sl = stash
+  d = diff
+  br = branch
+  co = checkout
+  st = status
+  cp = cherry-pick
+  aa = add --all
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  sl = stash
 [core]
-	editor = vim
+  editor = vim

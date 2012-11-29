@@ -10,3 +10,4 @@ if [ $HOSTNAME == 'devrs137.prn1.facebook.com' ]; then
 fi
 
 export EDITOR=$(which vim)
+alias g='git'
