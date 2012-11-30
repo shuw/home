@@ -2,7 +2,7 @@
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+  . /etc/bashrc
 fi
 
 if [ $HOSTNAME == 'devrs137.prn1.facebook.com' ]; then
