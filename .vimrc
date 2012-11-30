@@ -5,3 +5,4 @@ if $HOSTNAME == 'devrs137.prn1.facebook.com'
 endif
 
 set number
+set mouse=a
