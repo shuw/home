@@ -11,3 +11,4 @@ fi
 
 export EDITOR=$(which vim)
 alias g='git'
+alias tma='tmux attach'
