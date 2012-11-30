@@ -1,7 +1,7 @@
 colorscheme desert
 
-if $HOSTNAME == 'devrs137.prn1.facebook.com'
-  source ~/.fb.vimrc
+if filereadable($HOME/group/group.vimrc)
+  . $HOME/group/group.vimrc
 endif
 
 call pathogen#infect()
