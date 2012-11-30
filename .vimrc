@@ -1,7 +1,7 @@
 colorscheme desert
 
-if filereadable($HOME/group/group.vimrc)
-  . $HOME/group/group.vimrc
+if filereadable($HOME.'/group/group.vimrc')
+  source $HOME/group/group.vimrc
 endif
 
 call pathogen#infect()

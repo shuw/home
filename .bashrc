@@ -5,9 +5,11 @@ if [ -f /etc/bashrc ]; then
   . /etc/bashrc
 fi
 
-if [ $HOSTNAME == 'devrs137.prn1.facebook.com' ]; then
-  source ~/.fb.bashrc
-fi
+# Source group definitions
+if [ -f $HOME/group/group.bashrc ]
+then
+  . $HOME/group/group.bashrc
+fi;
 
 export EDITOR=$(which vim)
 alias g='git'
