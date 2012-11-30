@@ -9,3 +9,5 @@ filetype plugin indent on
 
 set number
 set mouse=a
+let mapleader = ","
+nmap <leader>n :NERDTreeToggle<cr>
