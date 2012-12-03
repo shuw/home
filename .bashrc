@@ -15,3 +15,4 @@ export EDITOR=$(which vim)
 alias g='git'
 alias tma='tmux attach'
 alias dev='ssh dev'
+export GREP_OPTIONS='--color=always'
