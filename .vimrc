@@ -9,6 +9,7 @@ endif
 call pathogen#infect()
 filetype plugin indent on
 
+set autoread
 set number
 set mouse=a
 let mapleader = ","
