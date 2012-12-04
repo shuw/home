@@ -13,5 +13,6 @@
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   sl = stash
   of = diff trunk --name-only
+  c = commit
 [core]
   editor = vim
