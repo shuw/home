@@ -1,5 +1,8 @@
 colorscheme desert
 
+" Default settings
+set tabstop=2
+
 " Load local config
 if filereadable($HOME.'/profile/vimrc')
   source $HOME/profile/vimrc
