@@ -5,10 +5,10 @@ if [ -f /etc/bashrc ]; then
   . /etc/bashrc
 fi
 
-# Source group definitions
-if [ -f $HOME/group/group.bashrc ]
+# Source local definitions
+if [ -f $HOME/profile/bashrc ]
 then
-  . $HOME/group/group.bashrc
+  . $HOME/profile/bashrc
 fi;
 
 export EDITOR=$(which vim)
