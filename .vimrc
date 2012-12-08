@@ -1,4 +1,4 @@
-colorscheme desert
+colorscheme grb256
 
 " Default settings
 set tabstop=2
@@ -12,6 +12,8 @@ endif
 call pathogen#infect()
 filetype plugin indent on
 
+let mapleader = ","
+
 " Nerd tree shortcuts
 nmap <leader>nt :NERDTreeToggle<cr>
 nmap <leader>nf :NERDTreeFind<cr>
@@ -20,4 +22,3 @@ nmap <leader>nf :NERDTreeFind<cr>
 set autoread
 set number
 set mouse=a
-let mapleader = ","
