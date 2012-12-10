@@ -1,4 +1,4 @@
-colorscheme grb256
+colorscheme desert
 
 " Default settings
 set tabstop=2
