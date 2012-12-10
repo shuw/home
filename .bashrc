@@ -12,7 +12,10 @@ then
 fi;
 
 export EDITOR=$(which vim)
+export GREP_OPTIONS='--color=always'
+
+# Shortcuts
 alias g='git'
 alias tma='tmux attach'
 alias dev='ssh dev'
-export GREP_OPTIONS='--color=always'
+alias httpserver='python -m SimpleHTTPServer &'
