@@ -5,7 +5,7 @@
   ui = true
 [alias]
   d = diff
-  br = branch
+  br = branch --verbose
   co = checkout
   st = status
   cp = cherry-pick
