@@ -14,6 +14,9 @@ filetype plugin indent on
 
 let mapleader = ","
 
+" Non-regex search shortcut
+nmap <Leader>s :execute '/\V' . escape(input('/'), '\\/')<CR>
+
 " Nerd tree shortcuts
 nmap <leader>nt :NERDTreeToggle<cr>
 nmap <leader>nf :NERDTreeFind<cr>
