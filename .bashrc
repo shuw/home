@@ -13,6 +13,7 @@ fi;
 
 export EDITOR=$(which vim)
 export GREP_OPTIONS='--color=always'
+export PATH=~/bin:$PATH
 
 # Shortcuts
 alias g='git'
