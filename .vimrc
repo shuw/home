@@ -14,6 +14,9 @@ filetype plugin indent on
 
 let mapleader = ","
 
+" Select just pasted text
+nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
+
 " Non-regex search shortcut
 nmap <Leader>s :execute '/\V' . escape(input('/'), '\\/')<CR>
 
