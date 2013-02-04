@@ -13,6 +13,11 @@ endif
 call pathogen#infect()
 filetype plugin indent on
 
+" We have a big repository, sadly enough
+let g:CommandTMaxFiles=50000
+" Make delete work as backspace
+let g:CommandTBackspaceMap='<Del>'
+
 let mapleader = ","
 
 " Select just pasted text
