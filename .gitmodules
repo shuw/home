@@ -13,3 +13,6 @@
 [submodule "/Users/shuw/.vim/bundle/vim-fugitive"]
 	path = /Users/shuw/.vim/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "/Users/shuw/.vim/bundle/vim-less"]
+	path = /Users/shuw/.vim/bundle/vim-less
+	url = https://github.com/groenewege/vim-less
