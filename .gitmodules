@@ -8,11 +8,11 @@
 	path = .vim/bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "/Users/shuw/.vim/bundle/vim-jade"]
-	path = /Users/shuw/.vim/bundle/vim-jade
+	path = .vim/bundle/vim-jade
 	url = git://github.com/digitaltoad/vim-jade.git
 [submodule "/Users/shuw/.vim/bundle/vim-fugitive"]
-	path = /Users/shuw/.vim/bundle/vim-fugitive
+	path = .vim/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
 [submodule "/Users/shuw/.vim/bundle/vim-less"]
-	path = /Users/shuw/.vim/bundle/vim-less
+	path = .vim/bundle/vim-less
 	url = https://github.com/groenewege/vim-less
