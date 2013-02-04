@@ -13,7 +13,10 @@ fi;
 
 export EDITOR=$(which vim)
 export GREP_OPTIONS='--color=always'
+export PATH=/usr/local/bin:$PATH
 export PATH=~/bin:$PATH
+export PATH=/usr/local/heroku/bin:$PATH
+export PATH=/usr/local/share/npm/bin:$PATH
 
 # Shortcuts
 alias g='git'
