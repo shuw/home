@@ -1,4 +1,5 @@
 colorscheme desert
+syntax on
 
 " Default settings
 set tabstop=2
