@@ -21,6 +21,9 @@ filetype plugin indent on
 " We have a big repository, sadly enough
 let g:CommandTMaxFiles=50000
 
+" Abbreviations
+iab hd hphpd_break();
+
 let mapleader = ","
 
 " Select just pasted text
