@@ -1,18 +1,22 @@
 colorscheme desert
 syntax on
 
-" Default settings
+" Load local config
+if filereadable($HOME.'/profile/vimrc')
+  source $HOME/profile/vimrc
+endif
+
+" Settings
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
 set incsearch
 set hlsearch
-
-" Load local config
-if filereadable($HOME.'/profile/vimrc')
-  source $HOME/profile/vimrc
-endif
+set noswapfile " because they are annoying
+set autoread
+set number
+set mouse=a
 
 " Enable pathogen plugins
 call pathogen#infect()
@@ -36,7 +40,3 @@ nmap <Leader>s :execute '/\V' . escape(input('/'), '\\/')<CR>
 nmap <leader>nt :NERDTreeToggle<cr>
 nmap <leader>nf :NERDTreeFind<cr>
 
-" Shortcuts
-set autoread
-set number
-set mouse=a
