@@ -47,4 +47,4 @@ nmap <leader>h :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 nmap <leader>s :w<CR>
 
 " Toggle paste mode
-set pastetoggle=<F2>
+set pastetoggle=<leader>p
