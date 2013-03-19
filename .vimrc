@@ -40,3 +40,11 @@ nmap <Leader>s :execute '/\V' . escape(input('/'), '\\/')<CR>
 nmap <leader>nt :NERDTreeToggle<cr>
 nmap <leader>nf :NERDTreeFind<cr>
 
+" Switch between .cpp and .h
+nmap <leader>h :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
+
+" Quicker save
+nmap <leader>s :w<CR>
+
+" Toggle paste mode
+set pastetoggle=<F2>
