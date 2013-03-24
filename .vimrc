@@ -1,18 +1,21 @@
 colorscheme desert
 syntax on
 
-" Load local config
-if filereadable($HOME.'/profile/vimrc')
-  source $HOME/profile/vimrc
-endif
-
-" Settings
+" Default settings (before local config)
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
 set incsearch
 set hlsearch
+set backspace=indent,eol,start
+
+" Load local config
+if filereadable($HOME.'/profile/vimrc')
+  source $HOME/profile/vimrc
+endif
+
+" More settings
 set noswapfile " because they are annoying
 set autoread
 set number
