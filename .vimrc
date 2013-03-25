@@ -9,6 +9,7 @@ set expandtab
 set incsearch
 set hlsearch
 set backspace=indent,eol,start
+set ruler
 
 " Load local config
 if filereadable($HOME.'/profile/vimrc')
