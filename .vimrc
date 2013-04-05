@@ -49,6 +49,7 @@ nmap <leader>h :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 
 " Quicker save
 nmap <leader>s :w<CR>
+nmap <leader>q :q<CR>
 
 " Toggle paste mode
 set pastetoggle=<leader>p
