@@ -14,5 +14,6 @@
   sl = stash
   of = diff trunk --name-only
   c = commit
+  r = rebase
 [core]
   editor = vim
