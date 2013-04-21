@@ -21,6 +21,8 @@ set noswapfile " because they are annoying
 set autoread
 set number
 set mouse=a
+set splitbelow
+set splitright
 
 " Enable pathogen plugins
 call pathogen#infect()
@@ -36,6 +38,11 @@ let mapleader = ","
 
 " Select just pasted text
 nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " Non-regex search shortcut
 nmap <Leader>s :execute '/\V' . escape(input('/'), '\\/')<CR>
