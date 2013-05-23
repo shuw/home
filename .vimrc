@@ -34,7 +34,7 @@ let g:CommandTMaxFiles=50000
 " Abbreviations
 iab hd hphpd_break();
 
-let mapleader = ","
+let mapleader = "."
 
 " Select just pasted text
 nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
