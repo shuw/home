@@ -41,6 +41,8 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+map <C-w>, gT
+map <C-w>. gt
 
 " Non-regex search shortcut
 nmap <Leader>s :execute '/\V' . escape(input('/'), '\\/')<CR>
