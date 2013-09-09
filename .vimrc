@@ -33,6 +33,7 @@ let g:CommandTMaxFiles=50000
 
 " Abbreviations
 iab hd hphpd_break();
+iab pdbd import pdb; pdb.set_trace();
 
 " Select just pasted text
 nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
@@ -43,6 +44,8 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 map <C-w>, gT
 map <C-w>. gt
+
+nmap <leader>= :tabnew<cr>
 
 " Non-regex search shortcut
 nmap <Leader>s :execute '/\V' . escape(input('/'), '\\/')<CR>
