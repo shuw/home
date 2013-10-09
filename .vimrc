@@ -46,6 +46,7 @@ map <C-w>, gT
 map <C-w>. gt
 nmap <leader>= :tabnew<cr>
 nmap <C-]> :tjump <C-R>=expand("<cword>")<CR><CR>
+nmap <C-w>c :echo "no op"<CR>
 
 " Non-regex search shortcut
 nmap <Leader>s :execute '/\V' . escape(input('/'), '\\/')<CR>
