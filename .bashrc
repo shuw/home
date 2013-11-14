@@ -15,8 +15,7 @@ then
   . $HOME/profile/bashrc
 fi;
 
-export MY_SHORT_PATH='$(echo -n "${PWD/#$HOME/~}" | awk -F "/" '"'"'{if (length($0) > 14) { if (NF>4) print $1 "/" $2 "/.../" $(NF-1) "/" $NF; else if (NF>3) print $1 "/" $2 "/.../" $NF; else print $1 "/.../" $NF; } else print $0;}'"'"')'
-PS1="[\u@\h $MY_SHORT_PATH] "
+PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
 
 export EDITOR=$(which vim)
 export GREP_OPTIONS='--color=auto'
