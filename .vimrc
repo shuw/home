@@ -33,7 +33,7 @@ let g:CommandTMaxFiles=50000
 
 " Abbreviations
 iab hd hphpd_break();
-iab pdbd import pdb; pdb.set_trace();
+iab pdbg import pdb; pdb.set_trace();
 
 " Select just pasted text
 nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
