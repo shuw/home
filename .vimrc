@@ -58,6 +58,9 @@ nmap <leader>nf :NERDTreeFind<cr>
 " Switch between .cpp and .h
 nmap <leader>h :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 
+" Quick Split
+nmap <leader>s :vsp<CR>
+
 " Quicker save
 nmap <leader>w :w<CR>
 nmap <leader>q :q<CR>
