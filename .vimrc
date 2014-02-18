@@ -11,11 +11,6 @@ set hlsearch
 set backspace=indent,eol,start
 set ruler
 
-" Load local config
-if filereadable($HOME.'/profile/vimrc')
-  source $HOME/profile/vimrc
-endif
-
 " More settings
 set noswapfile " because they are annoying
 set autoread
@@ -71,4 +66,9 @@ set pastetoggle=<leader>p
 " Remember last line, when reopening file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
+" Load local config
+if filereadable($HOME.'/profile/vimrc')
+  source $HOME/profile/vimrc
 endif
