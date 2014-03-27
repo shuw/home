@@ -14,7 +14,6 @@ set ruler
 " More settings
 set noswapfile " because they are annoying
 set autoread
-set number
 set mouse=a
 set splitbelow
 set splitright
@@ -72,3 +71,5 @@ endif
 if filereadable($HOME.'/profile/vimrc')
   source $HOME/profile/vimrc
 endif
+
+set number
