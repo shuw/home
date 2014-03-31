@@ -76,4 +76,9 @@ if filereadable($HOME.'/profile/vimrc')
   source $HOME/profile/vimrc
 endif
 
+" Load host config
+if filereadable($HOME.'/profile/'.$HOSTNAME.'/vimrc')
+  source $HOME/profile/$HOSTNAME/vimrc
+endif
+
 set number

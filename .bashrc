@@ -1,5 +1,7 @@
 # .bashrc
 
+alias ll='ls -lGh $@'
+
 if [ -z "$PS1" ]; then
   return
 fi
@@ -13,6 +15,12 @@ fi
 if [ -f $HOME/profile/bashrc ]
 then
   . $HOME/profile/bashrc
+fi;
+
+# Source host definitions
+if [ -f $HOME/profile/$HOSTNAME/bashrc ]
+then
+  . $HOME/profile/$HOSTNAME/bashrc
 fi;
 
 PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
