@@ -6,8 +6,6 @@ set softtabstop=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set incsearch
-set hlsearch
 set backspace=indent,eol,start
 set ruler
 
@@ -82,3 +80,5 @@ if filereadable($HOME.'/profile/'.$HOSTNAME.'/vimrc')
 endif
 
 set number
+set incsearch
+set hlsearch
