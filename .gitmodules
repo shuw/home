@@ -16,3 +16,12 @@
 [submodule "/Users/shuw/.vim/bundle/vim-less"]
 	path = .vim/bundle/vim-less
 	url = https://github.com/groenewege/vim-less
+[submodule ".vim/bundle/grb256"]
+	path = .vim/bundle/grb256
+	url = git://github.com/quanganhdo/grb256.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-distinguished"]
+	path = .vim/bundle/vim-distinguished
+	url = git://github.com/Lokaltog/vim-distinguished.git

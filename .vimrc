@@ -1,4 +1,3 @@
-colorscheme desert
 syntax on
 
 " Default settings (before local config)
@@ -82,3 +81,8 @@ endif
 set number
 set incsearch
 set hlsearch
+
+" Color scheme
+set t_Co=256
+set background=dark
+colorscheme grb256
