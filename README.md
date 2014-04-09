@@ -7,3 +7,6 @@
     git remote add origin git@github.com:shuw/home.git
     git fetch origin
     git checkout -b master origin/master
+
+    git submodule init
+    git submodule update
