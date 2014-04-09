@@ -86,5 +86,5 @@ set hlsearch
 set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
-" colorscheme grb256
-colorscheme solarized
+" colorscheme solarized
+colorscheme grb256
