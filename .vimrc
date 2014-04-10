@@ -50,7 +50,8 @@ nmap <leader>nf :NERDTreeFind<cr>
 nmap <leader>h :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 
 " Quick Split
-nmap <leader>s :vsp<CR>
+nmap <leader>s :sp<CR>
+nmap <leader>v :vsp<CR>
 
 " Quicker save
 nmap <leader>w :w<CR>
@@ -89,6 +90,7 @@ set hlsearch
 set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
-" colorscheme solarized
+colorscheme solarized
 " colorscheme grb256
-colorscheme distinguished
+" colorscheme distinguished
+" colorscheme desert
