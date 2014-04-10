@@ -87,10 +87,5 @@ set incsearch
 set hlsearch
 
 " Color scheme
-set t_Co=256
 set background=dark
-let g:solarized_termcolors=256
 colorscheme solarized
-" colorscheme grb256
-" colorscheme distinguished
-" colorscheme desert
