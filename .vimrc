@@ -56,6 +56,9 @@ nmap <leader>s :vsp<CR>
 nmap <leader>w :w<CR>
 nmap <leader>q :q<CR>
 
+" Quick unhighlight
+nmap <leader>c :nohlsearch<CR>
+
 " Toggle paste mode
 set pastetoggle=<leader>p
 
