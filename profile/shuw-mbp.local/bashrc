@@ -6,20 +6,4 @@ export ANDROID_NDK=/Users/shuw/android-ndk-r9b
 export ANDROID_HOME=${ANDROID_SDK}
 export PATH=${PATH}:${ANDROID_SDK}/tools:${ANDROID_SDK}/platform-tools
 
-# added by setup_fb4a.sh
-export ANDROID_SDK=/Users/shuw/android-sdk-macosx
-export ANDROID_NDK=/Users/shuw/android-ndk-r9b
-export ANDROID_HOME=${ANDROID_SDK}
-export PATH=${PATH}:${ANDROID_SDK}/tools:${ANDROID_SDK}/platform-tools
-
-# added by setup_fb4a.sh
-export ANDROID_SDK=/Users/shuw/android-sdk-macosx
-export ANDROID_NDK=/Users/shuw/android-ndk-r9b
-export ANDROID_HOME=${ANDROID_SDK}
-export PATH=${PATH}:${ANDROID_SDK}/tools:${ANDROID_SDK}/platform-tools
-
-# added by setup_fb4a.sh
-export ANDROID_SDK=/Users/shuw/android-sdk-macosx
-export ANDROID_NDK=/Users/shuw/android-ndk-r9b
-export ANDROID_HOME=${ANDROID_SDK}
-export PATH=${PATH}:${ANDROID_SDK}/tools:${ANDROID_SDK}/platform-tools
+alias build_graphql='~/fbandroid/java/com/facebook/graphql/build.sh'
