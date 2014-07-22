@@ -39,3 +39,9 @@ alias dev='ssh dev'
 alias httpserver='python -m SimpleHTTPServer &'
 alias tm='tmux'
 alias v='vim'
+
+# Avoid 'screen-256color': unknown terminal type.
+alias ssh='TERM=xterm ssh'
+
+# VI mode for command line
+set -o vi
