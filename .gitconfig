@@ -19,5 +19,3 @@
   editor = vim
 [push]
 	default = matching
-[gc]
-	auto = 0
