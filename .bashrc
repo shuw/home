@@ -34,6 +34,7 @@ export PATH=/usr/local/share/npm/bin:$PATH
 
 # Shortcuts
 alias g='git'
+alias h='hg'
 alias tma='tmux attach'
 alias dev='ssh dev'
 alias httpserver='python -m SimpleHTTPServer &'
