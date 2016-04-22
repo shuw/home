@@ -1,5 +1,4 @@
 *
-!.vim/autoload/pathogen.vim
 !.gitignore
 !.gitconfig
 !.bash_profile
