@@ -72,6 +72,12 @@ endif
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+" Treat JSON files like JavaScript
+au BufNewFile,BufRead *.json setf javascript
+
+" Make Python follow PEP8
+au FileType python set sts=4 ts=4 sw=4 tw=79
+
 " Load local config
 if filereadable($HOME.'/profile/vimrc')
   source $HOME/profile/vimrc
