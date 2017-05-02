@@ -10,3 +10,9 @@ alias build_graphql='~/fbandroid/java/com/facebook/graphql/build.sh'
 alias sync_strings='DEVSERVER=dev199.prn2.facebook.com i18n/syncstrings --lib phone --config i18n/phone.config.json'
 alias chrome_inspector="./scripts/open_inspector.sh -p com.facebook.phone"
 alias avd="~/android-sdk-macosx/tools/android avd"
+
+# BEGIN: Block added by chef, to set environment strings
+# Please see https://fburl.com/AndroidProvisioning if you do not use bash
+# or if you would rather this bit of code 'live' somewhere else
+. ~/.fbchef/environment
+# END: Block added by chef
