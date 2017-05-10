@@ -21,3 +21,5 @@
 	default = matching
 [include]
   path = ~/profile/gitconfig
+[credential]
+	helper = cache
