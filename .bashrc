@@ -40,6 +40,8 @@ alias dev='ssh dev'
 alias httpserver='python -m SimpleHTTPServer &'
 alias tm='tmux'
 alias v='vim'
+alias apps="cd ~/code/augment/apps"
 
 # VI mode for command line
 set -o vi
+source ~/.rbenv.sh

@@ -1,1 +1,2 @@
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+alias sandbox='ssh -NL 8888:localhost:8888 sandbox'
