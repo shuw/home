@@ -20,7 +20,7 @@
 [core]
   editor = vim
 [push]
-	default = matching
+	default = current
 [include]
   path = ~/profile/gitconfig
 [credential]
