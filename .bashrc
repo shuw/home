@@ -41,7 +41,11 @@ alias httpserver='python -m SimpleHTTPServer &'
 alias tm='tmux'
 alias v='vim'
 alias apps="cd ~/code/augment/apps"
+alias queue="cd ~/Library/ApplicationSupport/Augment/queue"
 
 # VI mode for command line
 set -o vi
+
+# Cargo is a Rust package maanger
 source ~/.rbenv.sh
+. "$HOME/.cargo/env"
