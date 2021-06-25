@@ -1,7 +1,5 @@
 # .bashrc
 
-alias ll='ls -lGh $@'
-
 if [ -z "$PS1" ]; then
   return
 fi
@@ -33,6 +31,7 @@ export PATH=/usr/local/heroku/bin:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
 
 # Shortcuts
+alias ll='ls -lGh $@'
 alias g='git'
 alias h='hg'
 alias tma='tmux attach'
@@ -49,3 +48,6 @@ set -o vi
 # Cargo is a Rust package maanger
 source ~/.rbenv.sh
 . "$HOME/.cargo/env"
+
+# iTerm integration
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
