@@ -1,0 +1,17 @@
+PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
+
+export PATH=/usr/local/bin:$PATH
+export PATH=~/bin:$PATH
+export PATH=/usr/local/heroku/bin:$PATH
+export PATH=/usr/local/share/npm/bin:$PATH
+
+ # Cargo is a Rust package maanger
+source ~/.rbenv.sh
+. "$HOME/.cargo/env"
+
+# iTerm integration
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+alias apps="cd ~/code/augment/apps"
+alias queue="cd ~/Library/ApplicationSupport/Augment/queue"
+alias httpserver='python -m SimpleHTTPServer &'

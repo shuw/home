@@ -8,3 +8,7 @@
 !.vimrc
 !.gdbinit
 !profile/
+!profile/Darwin/
+!profile/Darwin/*
+!profile/Linux/
+!profile/Linux/*
