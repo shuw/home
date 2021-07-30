@@ -13,5 +13,10 @@ source ~/.rbenv.sh
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
 alias apps="cd ~/code/augment/apps"
+alias distiller="cd ~/code/augment/apps/daemons/distiller"
+alias oracle="cd ~/code/augment/apps/daemons/oracle"
 alias queue="cd ~/Library/ApplicationSupport/Augment/queue"
 alias httpserver='python -m SimpleHTTPServer &'
+alias ssh_distiller='ssh -J augment distiller1'
+alias logs="ssh shell.dev.augment.co tail -f '/logs/*/{fridge,distiller}.log"
+alias edit_alias="vim ~/profile/darwin/bashrc"
