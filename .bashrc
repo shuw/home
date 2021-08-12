@@ -24,7 +24,6 @@ fi;
 PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
 
 export EDITOR=$(which vim)
-export GREP_OPTIONS='--color=auto'
 
 # Shortcuts
 alias ll='ls -lGh $@'
