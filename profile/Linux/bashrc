@@ -1,2 +1,5 @@
 alias apps='cd /srv/src/apps'
+alias distiller='cd /srv/apps/distiller'
+alias oracle='cd /srv/apps/oracle'
+alias edit_alias='vim /home/shu/profile/Linux/bashrc'
 
