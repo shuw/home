@@ -3,4 +3,5 @@ alias distiller='cd /srv/apps/distiller'
 alias oracle='cd /srv/apps/oracle'
 alias fridge='cd /srv/apps/fridge'
 alias edit_alias='vim /home/shu/profile/Linux/bashrc'
+alias as_root='sudo -SsE env FU_ENV=production PATH=$PATH bash'
 
