@@ -19,8 +19,18 @@ alias fridge="cd ~/code/augment/apps/fridge/server"
 alias queue="cd ~/Library/ApplicationSupport/Augment/dev/queue"
 alias httpserver='python -m SimpleHTTPServer &'
 alias ssh_distiller='ssh -J augment distiller1'
-alias logs="ssh shell.dev.augment.co tail -f '/logs/*/{fridge,distiller}.log'"
+# alias logs="ssh shell.dev.augment.co tail -f '/logs/*/{fridge,distiller}.log'"
+alias logs='ssh -t shell.dev.augment.co grc tail -f  "/logs/{fridge,distiller}.log"'
 alias logs_distiller="ssh shell.dev.augment.co tail -f '/logs/*/distiller.log'"
 alias edit_alias="vim ~/profile/darwin/bashrc"
 alias console="distiller; bin/console"
 alias test_console="distiller; FU_ENV=test bin/console"
+alias init="~/code/scripts/augment_init"
+alias deploy_publish="rake deploy:version deploy:tag deploy:package deploy:publish"
+alias qa_box="open vnc://172.17.255.207"
+
+
+cp_distiller() {
+  # https://unix.stackexchange.com/a/553013
+  scp -oProxyJump=augment distiller1:$1 $2
+}
