@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-distinguished"]
 	path = .vim/bundle/vim-distinguished
 	url = git://github.com/Lokaltog/vim-distinguished.git
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby
