@@ -23,7 +23,8 @@ alias ssh_distiller='ssh -J augment distiller1'
 # alias logs="ssh shell.dev.augment.co tail -f '/logs/*/{fridge,distiller}.log'"
 alias logs='ssh -t shell.dev.augment.co grc tail -f  "/logs/{fridge,distiller}.log"'
 alias logs_distiller="ssh shell.dev.augment.co tail -f '/logs/*/distiller.log'"
-alias logs_client="tail -f /tmp/augment.log | grep -E \"(ERR|WARN)\""
+alias logs_client="tail -f /tmp/augment.log"
+alias errors_client="tail -f /tmp/augment.log | grep -E \"(ERR|WARN)\""
 alias edit_alias="vim ~/profile/darwin/bashrc"
 alias console="distiller; bin/console"
 alias test_console="distiller; FU_ENV=test bin/console"
