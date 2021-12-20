@@ -18,6 +18,7 @@
   wc = whatchanged --stat
   graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
   gsub = "!f() { git grep -l \"$1\" | xargs sed -i '' -e \"s/$1/$2/g\"; }; f"
+  loggrep = "!f() { git log -G \"$1\" --source --all; }; f"
 [core]
   editor = vim
 [push]

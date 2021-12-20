@@ -12,6 +12,7 @@ source ~/.rbenv.sh
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
+alias aug="cd ~/code/augment"
 alias apps="cd ~/code/augment/apps"
 alias ops="cd ~/code/augment/ops"
 alias distiller="cd ~/code/augment/apps/daemons/distiller"
