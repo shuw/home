@@ -15,6 +15,7 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 alias aug="cd ~/code/augment"
 alias apps="cd ~/code/augment/apps"
 alias ops="cd ~/code/augment/ops"
+alias atlas="cd ~/code/augment/atlas"
 alias distiller="cd ~/code/augment/apps/daemons/distiller"
 alias oracle="cd ~/code/augment/apps/daemons/oracle"
 alias fridge="cd ~/code/augment/apps/fridge/server"
