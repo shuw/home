@@ -4,6 +4,7 @@ alias exp_distiller='cd ~/experimental/apps/daemons/distiller'
 alias oracle='cd /srv/apps/oracle'
 alias fridge='cd /srv/apps/fridge'
 alias edit_alias='vim /home/shu/profile/Linux/bashrc'
-alias ssh_fridge='ssh `fridge_ips`'
+alias ssh_fridge='ssh `fridge_ips | cut -f1`'
 alias as_root='sudo -SsE env FU_ENV=production PATH=$PATH bash'
+alias conf_alerts="vim /etc/logstash/conf.d/augment-errors.conf"
 
