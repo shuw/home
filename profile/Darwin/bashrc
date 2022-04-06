@@ -32,7 +32,7 @@ alias console="distiller; bin/console"
 alias test_console="distiller; FU_ENV=test bin/console"
 alias init="~/code/scripts/augment_init"
 alias deploy_publish="rake deploy:version deploy:tag deploy:package deploy:publish"
-alias deploy_push="rake deploy:push deploy:stop deploy:start"
+alias deploy_push="rake deploy:push deploy:restart"
 alias qa_box="open vnc://172.17.255.207"
 alias cgrep="grep --color=always"
 
