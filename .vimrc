@@ -68,10 +68,6 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-" Highlight trailing spaces
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
-
 " Treat JSON files like JavaScript
 au BufNewFile,BufRead *.json setf javascript
 
@@ -95,3 +91,7 @@ set hlsearch
 " Color scheme
 set background=dark
 colorscheme solarized
+
+" Highlight trailing spaces
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
