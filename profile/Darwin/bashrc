@@ -12,32 +12,8 @@ source ~/.rbenv.sh
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
-alias aug="cd ~/code/augment"
-alias apps="cd ~/code/augment/apps"
-alias ops="cd ~/code/augment/ops"
-alias atlas="cd ~/code/augment/atlas"
-alias distiller="cd ~/code/augment/apps/daemons/distiller"
-alias oracle="cd ~/code/augment/apps/daemons/oracle"
-alias fridge="cd ~/code/augment/apps/fridge/server"
-alias queue="cd ~/Library/ApplicationSupport/Augment/dev/queue"
 alias httpserver='python -m SimpleHTTPServer &'
-alias ssh_distiller='ssh -J augment 172.16.14.70'
-# alias logs="ssh shell.dev.augment.co tail -f '/logs/*/{fridge,distiller}.log'"
-alias logs='ssh -t shell.dev.augment.co grc tail -f  "/logs/{fridge,distiller}.log"'
-alias logs_distiller="ssh shell.dev.augment.co tail -f '/logs/*/distiller.log'"
-alias logs_client="tail -f /tmp/augment.log"
-alias errors_client="tail -f /tmp/augment.log | grep -E \"(ERR|WARN)\""
 alias edit_alias="vim ~/profile/darwin/bashrc"
-alias console="distiller; bin/console"
-alias test_console="distiller; FU_ENV=test bin/console"
-alias init="~/code/scripts/augment_init"
-alias deploy_publish="rake deploy:version deploy:tag deploy:package deploy:publish"
-alias deploy_push="rake deploy:push deploy:restart"
-alias qa_box="open vnc://172.17.255.207"
 alias cgrep="grep --color=always"
 
-
-cp_distiller() {
-  # https://unix.stackexchange.com/a/553013
-  scp -oProxyJump=augment 172.16.10.20:$1 $2
-}
+eval "$(/opt/homebrew/bin/brew shellenv)"
