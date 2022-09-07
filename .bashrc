@@ -35,3 +35,5 @@ alias v='vim'
 
 # VI mode for command line
 set -o vi
+export JAVA_HOME=`/usr/libexec/java_home -v11`
+export PATH="$JAVA_HOME/bin:$PATH"
