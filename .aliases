@@ -1,0 +1,6 @@
+alias ll='ls -lGh $@'
+alias g='git'
+alias h='hg'
+alias tma='tmux attach'
+alias tm='tmux'
+alias v='vim'

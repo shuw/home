@@ -25,15 +25,11 @@ PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
 
 export EDITOR=$(which vim)
 
-# Shortcuts
-alias ll='ls -lGh $@'
-alias g='git'
-alias h='hg'
-alias tma='tmux attach'
-alias tm='tmux'
-alias v='vim'
+# Aliases
+source $HOME/.aliases
 
 # VI mode for command line
 set -o vi
+
 export JAVA_HOME=`/usr/libexec/java_home -v11`
 export PATH="$JAVA_HOME/bin:$PATH"
