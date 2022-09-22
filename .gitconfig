@@ -1,6 +1,8 @@
 [user]
   name = Shu Wu
   email = shuwu83@gmail.com
+[includeIf "gitdir:~/code/**"]
+  path = ~/code/.gitconfig
 [color]
   ui = true
 [alias]
