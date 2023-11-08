@@ -3,6 +3,7 @@
 !.gitconfig
 !.bash_profile
 !.bashrc
+!.zshrc
 !README.md
 !.tmux.conf
 !.vimrc
